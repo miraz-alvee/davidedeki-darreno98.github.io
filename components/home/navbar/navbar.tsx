@@ -74,7 +74,7 @@ export default function Navbar() {
                     <div className="hidden md:flex items-center space-x-3 lg:space-x-8">
                         
                         <Link className="font-poppins text-[16px] font-light text-[#535768] hover:text-[#474b52]" href="/login">
-                            Sign In
+                            Log In
                             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#707784] transition-all duration-300 group-hover:w-full" />
                         </Link>
                         <Link
