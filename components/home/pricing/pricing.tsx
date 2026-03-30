@@ -83,7 +83,7 @@ export default function Pricing() {
     const [billing, setBilling] = useState<'monthly' | 'yearly'>('yearly')
 
     return (
-        <section className="bg-white py-16 px-4 sm:px-6 lg:px-8 font-[Poppins,sans-serif]">
+        <section className="bg-white py-16 px-4 sm:px-6 lg:px-8 font-poppins">
 
             {/* Heading */}
             <div className="text-center max-w-3xl mx-auto mb-14">
@@ -134,7 +134,7 @@ export default function Pricing() {
                     <div
                         key={plan.name}
                         className={`relative rounded-2xl p-7 flex flex-col shadow-md transition-transform duration-200 hover:-translate-y-1 ${plan.dark
-                                ? 'bg-linear-to-b from-[#191a42] via-[#6161FF] to-[#7A7AFF] text-white'
+                                ? 'bg-linear-to-br from-[#0F1048] via-[#6161FF] to-[#7A7AFF] text-white'
                                 : 'bg-white border border-gray-100 text-[#1a1a2e]'
                             }`}
                         style={
