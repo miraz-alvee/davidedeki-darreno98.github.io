@@ -113,7 +113,7 @@ export default function LoginPage() {
         </div>
 
         {/* Login Button */}
-        <Link href="/"><button
+        <Link href="/overview"><button
           type="button"
           className="w-full bg-[#5B5BD6] hover:bg-[#4a4ac4] active:bg-[#3d3db8] text-white font-bold text-[15px] sm:text-[16px] rounded-full py-2.5 sm:py-3.5 transition-colors duration-200 shadow-sm"
         >
