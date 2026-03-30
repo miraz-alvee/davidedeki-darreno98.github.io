@@ -1,6 +1,7 @@
 import { Phone, Calendar, Bot } from "lucide-react";
 import Image from "next/image";
 import heroImage from "@/public/images/hero-image.png";
+import Link from "next/link";
 
 const features = [
     { icon: Phone, label: "AI voice\nCall" },
@@ -11,7 +12,7 @@ const features = [
 export default function Hero() {
     return (
         <section className="w-full overflow-hidden">
-            {/* HERO */} 
+            {/* HERO */}
             <div
                 className="relative bg-center bg-no-repeat flex flex-col items-center justify-center text-center bg-cover md:bg-cover lg:bg-cover 
                 xl:bg-cover 2xl:bg-size-[160%]"
@@ -83,14 +84,17 @@ export default function Hero() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row items-center gap-4 justify-center">
-                    <button className="font-poppins inline-flex items-center gap-2 px-8 sm:px-10 py-3 rounded-full bg-[#6161FF] hover:bg-indigo-600 text-white text-sm sm:text-base font-light transition-colors duration-200 shadow-md">
-                        Start Free Trial
-                        <span>→</span>
-                    </button>
-
-                    <button className="font-poppins inline-flex items-center gap-2 px-8 sm:px-10 py-3 rounded-full border border-slate-300 bg-white/60 hover:bg-white/90 text-black text-sm sm:text-base font-light backdrop-blur-sm transition-colors duration-200">
+                    <Link href='/sign-up'>
+                        <button className="font-poppins cursor-pointer inline-flex items-center gap-2 px-8 sm:px-10 py-3 rounded-full bg-[#6161FF] hover:bg-indigo-600 text-white text-sm sm:text-base font-light transition-colors duration-200 shadow-md">
+                            Start Free Trial
+                            <span>→</span>
+                        </button>
+                    </Link>
+                    <Link href='#how-it-works'>
+                    <button className="font-poppins cursor-pointer inline-flex items-center gap-2 px-8 sm:px-10 py-3 rounded-full border border-slate-300 bg-white/60 hover:bg-white/90 text-black text-sm sm:text-base font-light backdrop-blur-sm transition-colors duration-200">
                         See How It Works
                     </button>
+                    </Link>
                 </div>
             </div>
         </section>

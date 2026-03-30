@@ -24,7 +24,7 @@ const stepsData = [
 
 export default function Steps() {
   return (
-    <section className="bg-[#F0F3FF] min-h-130 py-12 px-6">
+    <section id="how-it-works" className="bg-[#F0F3FF] min-h-130 py-12 px-6">
       
       {/* Heading */}
       <div className="text-center max-w-3xl mx-auto mb-14">

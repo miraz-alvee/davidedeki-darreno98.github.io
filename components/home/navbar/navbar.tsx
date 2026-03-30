@@ -13,9 +13,9 @@ export default function Navbar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const navLinks = [
-        { name: "Features", href: "/dyfbb" },
-        { name: "Pricing", href: "/sddgg" },
-        { name: "How It Works", href: "/areffv" },
+        { name: "Features", href: "#register" },
+        { name: "Pricing", href: "#pricing" },
+        { name: "How It Works", href: "#how-it-works" },
     ];
 
     const isActive = (href: string) => {

@@ -1,9 +1,10 @@
 import registerImage from '@/public/images/register-image.png';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Register() {
   return (
-    <section className="relative w-full">
+    <section id="register" className="relative w-full">
 
       {/* Image */}
       <div className="bg-[#0F1048]">
@@ -30,12 +31,13 @@ export default function Register() {
               business — all without technical skills.
             </span>
           </h1>
+          <Link href="/sign-up">
+            <button className="font-poppins cursor-pointer inline-flex mt-6 md:mt-10 items-center gap-2 px-8 sm:px-10 py-3 rounded-full bg-[#6161FF] hover:bg-indigo-600 text-white text-sm sm:text-base font-light transition-colors duration-200 shadow-md">
+              Get Started
+              <span>→</span>
+            </button>
+          </Link>
 
-          <button className="font-poppins inline-flex mt-6 md:mt-10 items-center gap-2 px-8 sm:px-10 py-3 rounded-full bg-[#6161FF] hover:bg-indigo-600 text-white text-sm sm:text-base font-light transition-colors duration-200 shadow-md">
-            Get Started
-            <span>→</span>
-          </button>
-          
 
         </div>
       </div>

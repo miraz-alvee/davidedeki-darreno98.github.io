@@ -83,7 +83,7 @@ export default function Pricing() {
     const [billing, setBilling] = useState<'monthly' | 'yearly'>('yearly')
 
     return (
-        <section className="bg-white py-16 px-4 sm:px-6 lg:px-8 font-poppins">
+        <section id="pricing" className="bg-white py-16 px-4 sm:px-6 lg:px-8 font-poppins">
 
             {/* Heading */}
             <div className="text-center max-w-3xl mx-auto mb-14">
