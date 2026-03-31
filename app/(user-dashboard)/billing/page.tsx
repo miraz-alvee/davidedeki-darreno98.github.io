@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Billing from "./Billing";
 
 function page() {
   return (
-    <div>page</div>
-  )
+    <div>
+      <Billing />
+    </div>
+  );
 }
 
-export default page
+export default page;

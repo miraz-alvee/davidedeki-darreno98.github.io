@@ -7,7 +7,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 
 const UserDashboardHeader = () => {
   return (
-    <div className="flex items-center gap-x-7 justify-end mr-10">
+    <div className="flex items-center gap-x-3 lg:gap-x-7 justify-end mr-4 lg:mr-10">
       <IoMdNotificationsOutline className="border border-gray-300! hover:border-[#6161FF]! w-10! h-10! lg:w-12.5! lg:h-12.5! rounded-full p-1 cursor-pointer" />
 
       <Link href="/settings" className="flex  items-center gap-x-3">

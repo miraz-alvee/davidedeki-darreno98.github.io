@@ -2,7 +2,6 @@ import HeaderDrawerWrapper from "@/ui/HeaderDrawerWrapper";
 import NavbarText from "@/ui/NavbarText";
 import Sidebar from "@/ui/Sidebar";
 import UserDashboardHeader from "@/ui/UserDashboardHeader";
-import { ConfigProvider } from "antd";
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -14,13 +13,13 @@ const layout = ({ children }: { children: React.ReactNode }) => {
 
       {/* Main container */}
       <div className="col-span-12 md:col-span-10 h-screen">
-        <div className="h-[90px] flex items-center justify-between border-b-2 border-[#121447] bg-[#06073d]!">
+        <div className="h-16 lg:h-22 flex items-center justify-between border-b-2 border-[#121447] bg-[#06073d]!">
           <div className="text-white flex">
             <HeaderDrawerWrapper />
             <NavbarText />
           </div>
 
-          <div className="h-[90px] flex items-center justify-between  text-[#f7f8ff]">
+          <div className="flex items-center justify-between  text-[#f7f8ff]">
             <UserDashboardHeader />
           </div>
         </div>
