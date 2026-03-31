@@ -1,8 +1,11 @@
 import React from 'react'
+import Analytics from './Analytics'
 
 function page() {
   return (
-    <div>page</div>
+    <div>
+      <Analytics />
+    </div>
   )
 }
 
