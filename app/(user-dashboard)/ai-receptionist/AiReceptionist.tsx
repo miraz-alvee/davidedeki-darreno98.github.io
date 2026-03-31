@@ -118,7 +118,7 @@ function AiReceptionist() {
             <p className="text-gray-400 text-sm">
               Click to simulate a test call
             </p>
-            <button className="border-2 border-indigo-500 text-indigo-600 font-bold text-sm px-10 py-3 rounded-xl hover:bg-indigo-50 transition-colors">
+            <button className="cursor-pointer border-2 border-indigo-500 text-indigo-600 font-bold text-sm px-10 py-3 rounded-xl hover:bg-indigo-50 transition-colors">
               Start Test Call
             </button>
           </div>

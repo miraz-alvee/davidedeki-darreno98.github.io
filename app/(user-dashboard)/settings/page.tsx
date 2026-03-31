@@ -1,7 +1,12 @@
 import React from "react";
+import Settings from "./Settings";
 
 function page() {
-  return <div>page</div>;
+  return (
+    <div>
+      <Settings />
+    </div>
+  );
 }
 
 export default page;
