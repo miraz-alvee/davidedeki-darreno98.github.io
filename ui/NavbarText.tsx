@@ -55,7 +55,7 @@ function NavbarText() {
   };
 
   return (
-    <div className="ml-1 lg:ml-3">
+    <div className="ml-1 lg:ml-5">
       <h1 className="text-[22px] lg:text-[28px] font-semibold">
         {currentPage.title}
       </h1>

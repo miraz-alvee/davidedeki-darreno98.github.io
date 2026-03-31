@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Chatbot from "./Chatbot";
 
 function page() {
   return (
-    <div>page</div>
-  )
+    <div>
+      <Chatbot />
+    </div>
+  );
 }
 
-export default page
+export default page;
