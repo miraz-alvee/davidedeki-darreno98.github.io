@@ -10,7 +10,7 @@ export default function HeaderDrawerWrapper() {
   return (
     <>
       <button
-        className="md:hidden text-gray-300 text-3xl mr-3"
+        className="md:hidden text-gray-300 text-3xl mr-2 ml-4"
         onClick={() => setOpen(true)}
       >
         <HiMenuAlt3 />
